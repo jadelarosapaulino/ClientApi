@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\Election.cs" />
+    <Compile Remove="Entities\ElectionResult.cs" />
+    <Compile Remove="Entities\File.cs" />
+    <Compile Remove="Entities\Option.cs" />
+    <Compile Remove="Entities\Organization.cs" />
+    <Compile Remove="Entities\Organization_SystemUser.cs" />
+    <Compile Remove="Entities\Question.cs" />
+    <Compile Remove="Entities\SystemUser.cs" />
+    <Compile Remove="Entities\Voter.cs" />
+  </ItemGroup>
+
+</Project>
